@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>d.week3</title>
+    <style type="text/css">
+        body {margin: 20px;
+            font-size: 6rem; color: red;justify-content: center;align-items: center;height: 100vh}
+        p {margin: 0; padding:30px; text-align: center;}
+        img{margin: auto}
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        let a = prompt("평소에 밥을 몇 공기 드시나요?", "1");
+        let b = a * 310;
+
+        let content = '<p>한 번 드실 때마다<br> ' + b + 'kcal씩 <br>섭취하고 계시네요.</p>' +
+                      '<img src="man.jpeg" alt="이미지">';
+
+        document.body.innerHTML = content;
+    </script>
+</body>
+</html>
